@@ -1,0 +1,141 @@
+<!DOCKTYPE html>
+<html>
+<head>
+<style>
+button:hover{
+background-color:Orange;
+}
+body {
+  background-image:url('3.jpg');
+  background-repeat: no-repeat; background-attachment: fixed;  
+  background-size: cover; 
+  background-color: rgba(187, 207, 201, 0.534);
+}
+
+</style>
+<title>RegistrationForm</title>
+</head>
+
+<body>
+<h2 style="color:tomato";><center><b><u>Registration Application</u></b></center></h2>
+<hr>
+
+<form action="backend.php">
+
+<table align="center" width="100%">
+
+<tr><td><b> First Name: </b></td> <td><input type=”text” Placeholder="Enter your First Name" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <b>Joining Date: </b>
+<input type="date">
+  </td> </tr>
+
+<tr><td><b> Last Name: </b></td> <td> <input type=”text” Placeholder="Enter your Last Name"> </td> </tr>
+
+<tr><td>
+<b>Gender:
+    Male<input type="radio"> Female <input type="radio"> 
+    Other</b><input type="radio"></td> </tr>
+
+
+<tr> <td><b> Email Address: </b></td> <td> <input type=”text” Placeholder="Enter your Email Id"> </td> </tr> 
+
+<tr> <td><b> Password: </b></td> <td> <input type=”Password” Placeholder="Enter your password"> </td> </tr> 
+
+<tr><td><b> Contact Number </b></td> <td> <input type=”text” Placeholder="Enter your Contact Number"> </td> </tr>
+
+
+
+<tr>
+
+ <td>
+<b>Course Fees: </b></td><td><input list="myDatalist"> 
+  <datalist id="myDatalist"> 
+    <option value="Java-15K">
+    <option value="Python-12K">
+    <option value="Testing-10K">
+    <option value="Dotnet-15">
+    <option value="Salesforce-20K"></datalist>
+
+<tr><td><b>Interested Courses</b>:</td> <td>
+<b>Java:</b><input type="Checkbox">
+<b>Python:</b><input type="Checkbox">
+<b>Testing:</b><input type="Checkbox">
+<b>Dotnet:</b><input type="Checkbox">
+<b>Salesforce:</b><input type="Checkbox"></td></tr>
+
+<tr>
+<td><b>Available Days: </b></td><td><input list="mydays"> 
+  <datalist id="mydays"> 
+    <option value="Monday-Saturday">
+    <option value="Saunday-Holiday">
+   </datalist>
+</td>
+</tr>
+<tr>
+<td><b>Available Timings: </b></td><td><input list="Timing"> 
+  <datalist id="Timing"> 
+    <option value="9:00AM to 12:00">
+    <option value="14:00 to 16:00">
+    <option value="18:00 to 20:00">
+   </datalist>
+   
+   
+
+</td>
+</tr>
+
+
+<tr><td><b>Address: </b></td><td> 
+<textarea placeholder="Enter your Address"></textarea></td></tr>
+<tr><td>
+
+<tr><td><b> Select Your State</b></td><td>
+
+<select>
+<option value "choose">Select your Region</option>
+<option value "Andhra">Andhra Pradesh</option>
+<option value "Telangana">Telangana</option>
+<option value "Karnataka">Karnataka</option>
+<option value "Kerala">Kerala</option>
+<option value "Tamil Nadu">Tamil Nadu</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><b> Select Your City</b></td><td>
+<select>
+<option>Select city</option>
+<option>Amravati</option>
+<option>Vizag</option>
+<option>Kurnool</option>
+<option>Guntur</option>
+<option>Vijaywada</option>
+
+<option>Hyderabad</option>
+<option>Warangal</option>
+<option>Adilabad</option>
+<option>Sangareddy</option>
+<option>Rangareddy</option>
+</td>
+</tr>
+</select>
+
+<tr>
+<td><b> Pin Code: </b></td> <td> <input type=”text” Placeholder="Enter your pinode">
+
+</td>
+</tr>
+
+<tr>
+<td colspan=2 align="center">
+<button title="Click to Submit" type="button">Submit Now </button>
+<button title="Save As Draft" type="button" value="Save as Draft">Save as Draft</button>
+<button title="Click to Reset" type="button" value="Reset Now">Reset Now</button>
+</td>
+</tr>
+
+
+</table>
+</form>
+
+</body>
+</html>
